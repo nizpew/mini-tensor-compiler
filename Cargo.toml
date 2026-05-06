@@ -1,0 +1,27 @@
+[package]
+name = "mini_tensor_compiler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ndarray = "0.15"
+thiserror = "1.0"
+log = "0.4"
+env_logger = "0.10"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "graph_benchmark"
+harness = false
+
+[[example]]
+name = "simple_graph"
+path = "examples/simple_graph.rs"
+
+[[example]]
+name = "fusion_demo"
+path = "examples/fusion_demo.rs"
