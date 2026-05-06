@@ -1,6 +1,11 @@
-# Mini Tensor Compiler 🚀
+# Mini Tensor Compiler 
 
 A lightweight tensor compiler and optimization framework written in Rust.
+
+
+<img width="1110" height="632" alt="image" src="https://github.com/user-attachments/assets/19b92f2c-8e44-466c-8889-5b1cb6306e37" />
+
+
 
 ## Features
 
